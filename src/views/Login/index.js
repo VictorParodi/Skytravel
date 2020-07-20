@@ -1,11 +1,13 @@
 import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { Container, Content, Text } from 'native-base';
 
 const Login = () => {
     return (
-        <View>
-            <Text>Login Screen</Text>
-        </View>
+        <Container>
+            <Content>
+                <Text>Login Screen</Text>
+            </Content>
+        </Container>
     );
 }
 
